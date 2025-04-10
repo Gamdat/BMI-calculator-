@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<title>BMI Calculator App</title>
+<body>
+    <div class="container">
+        <div class="bmi">
+        <h1>BMI & Health Status Checker</h1>
+        <form id="bmiForm">
+            <label> Age
+                <input type="number" id="age"  placeholder="25">
+            </label>
+            <label> Height (in CM)
+                <input type="number" id="height" placeholder="140cm" required>
+            </label>
+            <label>Weight (in KG)
+                <input type="number" id="weight" placeholder="45kg" required>
+            </label>
+            <button type="submit">Check</button>
+        </form>
+        <div id="result"></div>
+        </div>
+<div class="convert">
+    <h3>Convert Inches to Feet + Inches</h3>
+    <label> Enter height (in Inches)
+        <input type="number" id="inchesinput" placeholder="68inches" required>
+    </label>
+    <button onclick="convertInches()">Convert</button>
+<p id="convertHeight"></p>
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
