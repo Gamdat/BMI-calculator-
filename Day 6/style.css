@@ -13,11 +13,9 @@ body{
     background-color: white;
     padding: 30px;
     border-radius: 10px;
-    width: 60%;
-    height: 60vh;
+    width: 300px;
     box-shadow:  0 0 10px #a7896a;
     margin-top: 40px;
-    margin-left: 160px;
 }
 
 h1{
